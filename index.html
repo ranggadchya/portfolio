@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio | Rangga Dwi Cahya</title>
 
+    <!-- Link Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+
+    <link rel="shortcut icon" href="dist/img/globe.svg" type="image/x-icon" />
+
     <!-- My CSS -->
     <link rel="stylesheet" href="dist/output.css" />
   </head>
@@ -28,19 +33,19 @@
             <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
               <ul class="block lg:flex">
                 <li class="group">
-                  <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Home</a>
+                  <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"><span class="bi bi-house"> Home</span></a>
                 </li>
                 <li class="group">
-                  <a href="#about" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">About</a>
+                  <a href="#about" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"><span class="bi bi-file-person"> About</span></a>
                 </li>
                 <li class="group">
-                  <a href="#portfolio" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Portfolio</a>
+                  <a href="#portfolio" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"><span class="bi bi-collection"> Portfolio</span></a>
                 </li>
                 <li class="group">
-                  <a href="#activity" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Activity</a>
+                  <a href="#activity" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"><span class="bi bi-activity"> Activity</span></a>
                 </li>
                 <li class="group">
-                  <a href="#contact" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Contact</a>
+                  <a href="#contact" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"><span class="bi bi-telephone"> Contact</span></a>
                 </li>
               </ul>
             </nav>
@@ -56,13 +61,13 @@
       <div class="container">
         <div class="flex flex-wrap">
           <div class="w-full self-center px-4 lg:w-1/2">
-            <h1 class="text-base font-semibold text-primary md:text-xl">Selamat Datang, saya <span class="block font-bold text-dark text-4xl mb-1 lg:text-5xl">Rangga Dwi Cahya</span></h1>
+            <h3 class="font-semibold text-primary text-xl uppercase sm:text-2xl"><span class="bi bi-house"> Home</span></h3>
+            <h1 class="block font-bold text-dark text-4xl lg:text-5xl uppercase">Rangga Dwi Cahya</h1>
             <h2 class="font-medium text-secondary text-lg mb-5 lg:text-2xl">Student & Junior Web Development</h2>
             <p class="font-medium text-secondary mb-10 leading-relaxed">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos totam quas in. Velit eligendi quas voluptatibus ducimus maxime eaque ad, quaerat enim ipsum voluptates quasi a culpa vero repudiandae minus nam molestiae
-              fuga corrupti laboriosam rem impedit. Pariatur nesciunt, corporis magnam incidunt veniam perspiciatis aperiam neque et laboriosam minus facere!
+              Perkenalkan, saya Rangga Dwi Cahya. Lahir tanggal 7 September, tahun 2003. Saya adalah seorang pelajar yang masih beranjak SMK. Saya bersekolah di
+              <a href="https://smkalfalahbandung.sch.id" target="_blank" class="text-dark font-semibold hover:text-primary">SMKS Al Falah Bandung</a>, jurusan Rekayasa Perangkat Lunak.
             </p>
-            <a href="#" class="text-base font-semibold text-white py-3 px-8 bg-primary rounded-lg hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Contact Me</a>
           </div>
           <div class="w-full self-end px-4 lg:w-1/2">
             <div class="relative mt-10 lg:mt-0 lg:mr-0">
@@ -75,22 +80,24 @@
     <!-- End Hero Section -->
 
     <!-- About Section -->
-    <section id="about" class="pt-36 pb-32">
+    <section id="about" class="pt-36 pb-28">
       <div class="container">
         <div class="flex flex-wrap">
           <div class="w-full px-4 mb-10 lg:w-1/2">
-            <h4 class="font-bold uppercase text-primary text-lg mb-3">About Me</h4>
+            <h4 class="font-bold uppercase text-primary text-lg mb-3"><span class="bi bi-file-person"> About Me</span></h4>
             <h2 class="font-bold text-dark text-3xl mb-2 max-w-md lg:text-4xl">My Website Portfolio</h2>
-            <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nam quibusdam facere veritatis minima ab possimus impedit molestias non modi?</p>
+            <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">
+              Ini adalah website portfolio kedua saya buat dan yang pertama kali saya upload. Untuk website nya sendiri bertujuan untuk memberikan informasi tentang diri sendiri dan website ini dibuat menggunakan
+              <a href="https://tailwindcss.com" target="_blank"><span class="text-sky-500 hover:text-sky-300">Tailwind CSS</span></a
+              >.
+            </p>
           </div>
           <div class="w-full px-4 lg:w-1/2">
             <h3 class="font-semibold text-dark text-2xl mb-2 lg:text-3xl lg:pt-10">Let's make a friends</h3>
-            <p class="font-medium text-base text-secondary mb-6 lg:text-lg">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia nostrum nisi quia soluta consectetur vel. Architecto deleniti corporis dolores maiores a excepturi tempore rem consectetur.
-            </p>
+            <p class="font-medium text-base text-secondary mb-6 lg:text-lg">Jika ingin berteman bisa langsung masuk ke sosial media saya, disana kita akan bisa berinteraksi satu sama lain dan saling berbabgi ilmu.</p>
             <div class="flex items-center">
               <!-- Instagram -->
-              <a href="#" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+              <a href="https://Instagram.com/_drangga" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white">
                 <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <title>Instagram</title>
                   <path
@@ -98,18 +105,7 @@
                   />
                 </svg>
               </a>
-
-              <!-- Facebook -->
-              <a href="#" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white">
-                <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <title>Facebook</title>
-                  <path
-                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
-                  />
-                </svg>
-              </a>
-
-              <!-- Telegram -->
+              <!-- Twitter -->
               <a href="#" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white">
                 <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <title>Twitter</title>
@@ -123,6 +119,13 @@
         </div>
       </div>
     </section>
+    <svg xmlns="http://www.w3.org/2000/svg" class="bg-slate-100" viewBox="0 0 1440 320">
+      <path
+        fill="#fff"
+        fill-opacity="1"
+        d="M0,256L0,224L110.8,224L110.8,96L221.5,96L221.5,160L332.3,160L332.3,64L443.1,64L443.1,96L553.8,96L553.8,192L664.6,192L664.6,288L775.4,288L775.4,128L886.2,128L886.2,64L996.9,64L996.9,288L1107.7,288L1107.7,256L1218.5,256L1218.5,128L1329.2,128L1329.2,0L1440,0L1440,0L1329.2,0L1329.2,0L1218.5,0L1218.5,0L1107.7,0L1107.7,0L996.9,0L996.9,0L886.2,0L886.2,0L775.4,0L775.4,0L664.6,0L664.6,0L553.8,0L553.8,0L443.1,0L443.1,0L332.3,0L332.3,0L221.5,0L221.5,0L110.8,0L110.8,0L0,0L0,0Z"
+      ></path>
+    </svg>
     <!-- End About Section -->
 
     <!-- Portfolio -->
@@ -130,9 +133,9 @@
       <div class="container">
         <div class="w-full px-4">
           <div class="max-w-xl mx-auto text-center mb-4">
-            <h4 class="font-semibold text-lg text-primary mb-2">Portfolio</h4>
+            <h4 class="font-semibold text-lg text-primary mb-2 uppercase"><span class="bi bi-collection"> Portfolio</span></h4>
             <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl">My Project</h2>
-            <p class="font-medium text-md text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quis illum quibusdam praesentium magni repellat possimus perspiciatis odit aliquam. Reiciendis?</p>
+            <p class="font-medium text-md text-secondary">Project atau sebuah website yang sudah saya kerjakan mau itu mandiri atau pun bersama team.</p>
           </div>
         </div>
         <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
@@ -141,33 +144,52 @@
               <img src="dist/img/project/Dashboard Admin.png" alt="Sistem Informasi Prakerin" width="w-full" />
             </div>
             <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Sistem Informasi Prakerin SMK</h3>
-            <p class="font-medium text-base text-secondary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo eligendi ullam repudiandae asperiores. Neque, facilis.</p>
+            <p class="font-medium text-base text-secondary">
+              Adalah sebuah website informasi Prakerin SMK Al Falah, dimana project ini saya kerjakan bersama team. Website ini pertama kali project yang cukup besar yang saya buat bersama team. Website ini menggunakan bahasa
+              <a href="https://laravel.com" target="_blank"><span class="text-red-700 hover:text-red-400">Framework Laravel 8</span></a> dan
+              <a href="https://getbootstrap.com" target="_blank"><span class="text-violet-800 hover:text-violet-400">Framework Bootstrap 4 & 5</span></a
+              >, ditambah dengan CSS Vanila.
+            </p>
           </div>
           <div class="mb-12 p-4 md:w-1/2">
             <div class="rounded-md shadow-md overflow-hidden">
               <img src="dist/img/project/Portfolio BS5.png" alt="Portfolio With Bootstrap 5" width="w-full" />
             </div>
             <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Portfolio With Bootstrap 5</h3>
-            <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit assumenda voluptatum sunt, impedit ducimus eius iusto consequatur facilis aliquid ipsa.</p>
+            <p class="font-medium text-base text-secondary">
+              Ini adalah website Portfolio yang sudah pernah saya kerjakan sejak awal dan saya membuat ini menggunakan
+              <a href="https://getbootstrap.com" target="_blank"><span class="text-violet-800 hover:text-violet-400">Bootstrap 5</span></a> dan HTML ditambah dengan sedikit CSS.
+            </p>
           </div>
           <div class="mb-12 p-4 md:w-1/2">
             <div class="rounded-md shadow-md overflow-hidden">
               <img src="dist/img/project/PHP MVC.png" alt="PHP MVC" width="w-full" />
             </div>
             <h3 class="font-semibold text-xl text-dark mt-5 mb-3">PHP MVC</h3>
-            <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, velit!</p>
+            <p class="font-medium text-base text-secondary">
+              Ini adalah sebuah website CRUD (Create, Read, Update & Delete) yang berbasis PHP dan DBMS My Sql, website pertama yang pernah saya buat menggunakan Bahasa PHP dengan Konsep PHP MVC. Ditambahkan dengan framework CSS yaitu
+              <a href="https://getbootstrap.com"><span class="text-violet-800 hover:text-violet-400">Bootstrap 5</span></a
+              >.
+            </p>
           </div>
         </div>
       </div>
     </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#f1f5f9"
+        fill-opacity="1"
+        d="M0,256L0,224L110.8,224L110.8,96L221.5,96L221.5,160L332.3,160L332.3,64L443.1,64L443.1,96L553.8,96L553.8,192L664.6,192L664.6,288L775.4,288L775.4,128L886.2,128L886.2,64L996.9,64L996.9,288L1107.7,288L1107.7,256L1218.5,256L1218.5,128L1329.2,128L1329.2,0L1440,0L1440,0L1329.2,0L1329.2,0L1218.5,0L1218.5,0L1107.7,0L1107.7,0L996.9,0L996.9,0L886.2,0L886.2,0L775.4,0L775.4,0L664.6,0L664.6,0L553.8,0L553.8,0L443.1,0L443.1,0L332.3,0L332.3,0L221.5,0L221.5,0L110.8,0L110.8,0L0,0L0,0Z"
+      ></path>
+    </svg>
     <!-- End Portfolio -->
 
     <!-- Activity -->
-    <section id="activity" class="pt-36 pb-32">
+    <section id="activity" class="pt-36 pb-28">
       <div class="container">
         <div class="w-full px-4">
           <div class="max-w-xl mx-auto text-center mb-4">
-            <h4 class="font-bold text-3xl text-primary mb-4 sm-text-4xl">Activity</h4>
+            <h4 class="font-bold text-3xl text-primary mb-4 sm-text-4xl uppercase"><span class="bi bi-activity"> Activity</span></h4>
           </div>
         </div>
         <div class="flex flex-wrap">
@@ -198,40 +220,56 @@
         </div>
       </div>
     </section>
+    <svg xmlns="http://www.w3.org/2000/svg" class="bg-slate-100" viewBox="0 0 1440 320">
+      <path
+        fill="#fff"
+        fill-opacity="1"
+        d="M0,256L0,224L110.8,224L110.8,96L221.5,96L221.5,160L332.3,160L332.3,64L443.1,64L443.1,96L553.8,96L553.8,192L664.6,192L664.6,288L775.4,288L775.4,128L886.2,128L886.2,64L996.9,64L996.9,288L1107.7,288L1107.7,256L1218.5,256L1218.5,128L1329.2,128L1329.2,0L1440,0L1440,0L1329.2,0L1329.2,0L1218.5,0L1218.5,0L1107.7,0L1107.7,0L996.9,0L996.9,0L886.2,0L886.2,0L775.4,0L775.4,0L664.6,0L664.6,0L553.8,0L553.8,0L443.1,0L443.1,0L332.3,0L332.3,0L221.5,0L221.5,0L110.8,0L110.8,0L0,0L0,0Z"
+      ></path>
+    </svg>
     <!-- End Activity -->
 
     <!-- Contact -->
-    <section id="contact" class="pt-36 pb-32 bg-slate-100">
+    <section id="contact" class="pt-36 pb-28 bg-slate-100">
       <div class="container">
         <div class="w-full px-4">
           <div class="max-w-xl mx-auto text-center mb-4">
-            <h4 class="font-semibold text-lg text-primary mb-2">Contact</h4>
+            <h4 class="font-semibold text-lg text-primary mb-2 uppercase"><span class="bi bi-telephone"> Contact</span></h4>
             <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl">Contact Me</h2>
-            <p class="font-medium text-md text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, repudiandae.</p>
+            <p class="font-medium text-md text-secondary">
+              Jika ada yang mau bekerja sama bisa masukan data lengkap dan mengisi semuanya dengan lengkap jika tidak bisa, bisa langsung hubungi saya atau Direct Message ke Instagram yang sudah tertera / email.
+            </p>
           </div>
         </div>
         <!-- Form -->
         <form action="">
           <div class="w-full lg:w-2/3 lg:mx-auto">
             <div class="w-full px-4 mb-8">
-              <label for="name" class="text-base font-bold text-primary uppercase">Name</label>
+              <label for="name" class="text-base font-bold text-primary uppercase"><span class="bi bi-justify"> Name</span></label>
               <input type="text" id="name" class="w-full bg-white text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary" />
             </div>
             <div class="w-full px-4 mb-8">
-              <label for="email" class="text-base font-bold text-primary uppercase">Email</label>
+              <label for="email" class="text-base font-bold text-primary uppercase"><span class="bi bi-envelope"> Email</span></label>
               <input type="email" id="email" class="w-full bg-white text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary" />
             </div>
             <div class="w-full px-4 mb-8">
-              <label for="pesan" class="text-base font-bold text-primary uppercase">Message</label>
+              <label for="pesan" class="text-base font-bold text-primary uppercase"><span class="bi bi-send"> Message</span></label>
               <textarea type="pesan" id="pesan" class="w-full bg-white text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary h-32"></textarea>
             </div>
             <div class="w-full">
-              <button class="text-base font-semibold text-white bg-primary py-3 px-6 rounded-md w-full hover:opacity-80 hover:shadow-lg transition duration-300 ease-in-out">Send</button>
+              <button class="text-base font-semibold text-white bg-primary py-3 px-6 rounded-md w-full hover:opacity-80 hover:shadow-lg transition duration-300 ease-in-out"><span class="bi bi-upload"> Send</span></button>
             </div>
           </div>
         </form>
       </div>
     </section>
+    <svg xmlns="http://www.w3.org/2000/svg" class="bg-primary" viewBox="0 0 1440 320">
+      <path
+        fill="#f1f5f9"
+        fill-opacity="1"
+        d="M0,256L0,224L110.8,224L110.8,96L221.5,96L221.5,160L332.3,160L332.3,64L443.1,64L443.1,96L553.8,96L553.8,192L664.6,192L664.6,288L775.4,288L775.4,128L886.2,128L886.2,64L996.9,64L996.9,288L1107.7,288L1107.7,256L1218.5,256L1218.5,128L1329.2,128L1329.2,0L1440,0L1440,0L1329.2,0L1329.2,0L1218.5,0L1218.5,0L1107.7,0L1107.7,0L996.9,0L996.9,0L886.2,0L886.2,0L775.4,0L775.4,0L664.6,0L664.6,0L553.8,0L553.8,0L443.1,0L443.1,0L332.3,0L332.3,0L221.5,0L221.5,0L110.8,0L110.8,0L0,0L0,0Z"
+      ></path>
+    </svg>
     <!-- End Contact -->
 
     <!-- Footer -->
@@ -249,13 +287,13 @@
             <h3 class="font-semibold text-xl text-white mb-5">My Project</h3>
             <ul class="text-slate-300">
               <li>
-                <a href="#" class="inline-block text-base hover:text-dark">Sistem Informasi Prakerin SMK Al Falah</a>
+                <a href="#portfolio" class="inline-block text-base hover:text-dark">Sistem Informasi Prakerin SMK Al Falah</a>
               </li>
               <li>
-                <a href="#" class="inline-block text-base hover:text-dark">Portfolio With Bootstrap 5</a>
+                <a href="#portfolio" class="inline-block text-base hover:text-dark">Portfolio With Bootstrap 5</a>
               </li>
               <li>
-                <a href="#" class="inline-block text-base hover:text-dark">PHP MVC</a>
+                <a href="#portfolio" class="inline-block text-base hover:text-dark">PHP MVC</a>
               </li>
             </ul>
           </div>
@@ -283,7 +321,7 @@
         <div class="w-full pt-10 border-t border-sky-400">
           <div class="flex items-center justify-center mb-5">
             <!-- Instagram -->
-            <a href="#" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-white text-white hover:border-white hover:bg-white hover:text-primary">
+            <a href="https://Instagram.com/_drangga" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-white text-white hover:border-white hover:bg-white hover:text-primary">
               <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <title>Instagram</title>
                 <path
